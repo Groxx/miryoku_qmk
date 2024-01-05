@@ -31,7 +31,6 @@ qmk flash \
   --keyboard crkbd \
   --keymap manna-harbour_miryoku
 ```
-Keys work, no lights or display.
 
 I've added stuff to:
 - [keyboards/crkbd](./keyboards/crkbd/) to enable rgb matrix lighting, works.
@@ -44,3 +43,5 @@ OLEDs are off, some possible ideas (not sure what I had before):
 
 When happy, manually(?) transcribe the layers/etc to https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml for a nice rendered map.
 (qmk c2json doesn't seem to understand any file I can find, only like one looks even close to usable for this)
+
+https://www.reddit.com/r/crkbd/comments/161bp8t/my_little_experiment_merging_miryoku_qwerty_for/ may also be interesting, looks close to what I want at a very brief glance.
