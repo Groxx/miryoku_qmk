@@ -38,8 +38,9 @@ I've added stuff to:
 - [users/miryoku](./users/manna-harbour_miryoku/custom_rules.mk) to switch to qwerty and mac
 - partly because it's easier than specifying the env vars every time on the cli.
 
-OLEDs are off, some possible ideas (not sure what I had before):
+OLEDs are off, some possible ideas:
 - https://www.reddit.com/r/olkb/comments/kknwxc/layer_state_reader_oled/
+- not sure what I had before.  look for the vendor's repo?  pretty sure beekeeb had something.
 
 When happy, manually(?) transcribe the layers/etc to https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml for a nice rendered map.
 (qmk c2json doesn't seem to understand any file I can find, only like one looks even close to usable for this)
